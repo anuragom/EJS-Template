@@ -1,0 +1,17 @@
+{
+  "name": "getting_started_expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e js,ejs,html -w . -w public -w views -w routes -w models server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "html-pdf": "^2.2.0"
+  }
+}
